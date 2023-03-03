@@ -1,0 +1,29 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\work\2017Granduate\my_project\SPI_RC522_new_project\RVMDK\Project.uvproj
+Project File Date:  01/18/2017
+
+<h2>Output:</h2>
+Build target 'Project'
+assembling startup_stm32f10x_hd.s...
+compiling main.c...
+..\User\JLX12864.h(23): warning:  #1295-D: Deprecated declaration clear_screen - give arg types
+..\User\JLX12864.h(24): warning:  #1295-D: Deprecated declaration initial_lcd - give arg types
+..\User\main.c(13): warning:  #1295-D: Deprecated declaration readBlock - give arg types
+..\User\main.c(39): warning:  #177-D: variable "info" was declared but never referenced
+..\User\main.c(46): warning:  #177-D: variable "time" was declared but never referenced
+..\User\main.c(49): warning:  #177-D: variable "count" was declared but never referenced
+..\User\main.c(50): warning:  #177-D: variable "dev" was declared but never referenced
+..\User\main.c(53): warning:  #177-D: variable "devices" was declared but never referenced
+..\User\main.c(145): warning:  #167-D: argument of type "u8 *" is incompatible with parameter of type "char *restrict"
+..\User\main.c(117): warning:  #177-D: variable "cardType" was declared but never referenced
+..\User\main.c(189): warning:  #940-D: missing return statement at end of non-void function "readBlock"
+..\User\main.c(108): warning:  #177-D: variable "i" was declared but never referenced
+..\User\main.c(112): warning:  #177-D: variable "Card_Data" was declared but never referenced
+linking...
+Program Size: Code=6136 RO-data=2396 RW-data=52 ZI-data=1036  
+FromELF: creating hex file...
+".\Output\Project.axf" - 0 Errors, 13 Warning(s).
